@@ -1,11 +1,11 @@
-<!DOCTYPE html>
+ <!DOCTYPE html>
 <html lang="en">
 <head>
   <title>Bootstrap Example</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-  <link rel="stylesheet" href="cssfiles/mycss.css">
+  <link rel="stylesheet" href="">
   
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
@@ -23,7 +23,7 @@
       <a class="navbar-brand" href="#">AMAZON</a>
     </div>
     <div class="collapse navbar-collapse" id="myNavbar">
-      <ul class="nav navbar-nav">
+     <ul class="nav navbar-nav">
         <li class="active"><a href="../index.html">Home</a></li>        
         <li><a href="contacts.html">Контакты</a></li> 
         <li><a href="#">Page 2</a></li>
@@ -41,10 +41,9 @@
 <div class="container">
 
       <div class="row row-offcanvas row-offcanvas-right">
- <div class="col-xs-6 col-sm-3 sidebar-offcanvas" id="sidebar" role="navigation">
+       <div class="col-xs-6 col-sm-3 sidebar-offcanvas" id="sidebar" role="navigation">
           <div><label>Каталог</label></div>
           <div class="list-group">        
-            
             <a href="electronicPage.html" class="list-group-item">Электроника</a>
             <a href="applinces.html" class="list-group-item">Бытовая техника</a>
             <a href="books.html" class="list-group-item">Книги</a>
@@ -57,27 +56,48 @@
         <div class="col-xs-12 col-sm-9">
           
           <div class="row">
-            <div class="col-6 col-sm-6 col-lg-4">
-             <img class="img-thumbnail"  src="../images/tv.jpg"  alt="Generic placeholder image">
-              <h2>Heading</h2>
-              <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
-              <p><a class="btn btn-default" href="electronicelements/electronElementITv.html" role="button">Подробнее &raquo;</a></p>
-            </div><!--/span-->
-            <div class="col-6 col-sm-6 col-lg-4">
-             <img class="img-thumbnail" src="../images/nootbook.jpg" alt="Generic placeholder image">
-              <h2>Heading</h2>
-              <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
-              <p><a class="btn btn-default" href="electronicelements/electronElementNootbook.html" role="button">Подробнее &raquo;</a></p>
-            </div><!--/span-->
-            <div class="col-6 col-sm-6 col-lg-4">
-             <img class="img-thumbnail" src="../images/smartphoneApple.jpg" alt="Generic placeholder image">
-              <h2>Heading</h2>
-              <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
-              <p><a class="btn btn-default" href="electronicelements/electronElementIPhone.html" role="button">Подробнее &raquo;</a></p>
-            </div><!--/span-->
-            
            
+           <div class="col-sm-6 col-md-4">
+                <div class="thumbnail">
+                  <script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3A370eaa95a577767161295f7259be17359b5f946bbb600f5d0d47b92b159e8d76&amp;width=500&amp;height=400&amp;lang=ru_RU&amp;scroll=true"></script>                 
+                </div>
+                <p>Наш телефон:  55555555</p>
+                <p>Наш email: http://127.0.0.1:55285/index.html</p>
+                
+
+<!-- Modal -->
+                <button class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">
+                  Написать нам
+                </button>
+                <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+                     <div class="modal-dialog">
+                        <div class="modal-content">
+                          <div class="modal-header">
+                             <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                             <h4 class="modal-title" id="myModalLabel">Ваше сообщение</h4>
+                          </div>                            
+                              <div class="modal-body">       
+                                <form action="http://127.0.0.1:55285/pages/contacts.html">
+                                    <fieldset>                                     
+                                        <p><textarea rows="10" cols="60" name="text"></textarea></p>                                    <p><input type ="email"id="email" required placeholder="Ваш email" ></p>  
+                                    </fieldset>                                  
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-default" data-dismiss="modal">Закрыть</button>
+                                        <button type="submit" class="btn btn-primary">Отправить</button>
+                                   </div>
+                               </form>
+
+                              </div>
+                              
+                        </div>
+                    </div>
+                </div>
+            </div> 
+                            
+                   
           </div><!--/row-->
+          
+          
         </div><!--/span-->
 
       
