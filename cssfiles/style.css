@@ -47,6 +47,51 @@ h2 {
     
 }
 .modal-body form textarea, input {
-    background: aquamarine;
-    color: black
+    background: azure;
+    color: black;
+}
+
+
+#sidebar a:hover {
+    color: #0F0;
+}
+
+
+#sidebar a:visited: {
+    color: #F00;
+}
+td img {
+    width: 60px;
+}
+.pup:hover {   
+    
+    width: 300px;
+}
+div  label:hover{
+    background: #dbe26c;
+}
+
+form h2 {
+  color: cornflowerblue;
+    font-size: 20px;
+    
+}
+ p::first-letter {
+    font-family: "Times New Roman", Times, serif; 
+    font-size: 2em; 
+    color: red; 
+   }
+form input[type="email"]:focus, form input[name]:focus, form input[type="password"]:focus { 
+background:aqua;
+ color: red;
+
+} 
+form input[name], textarea { 
+    text-transform: capitalize;
+    
+}
+
+
+form input[placeholder] {
+    color:blueviolet;
 }
