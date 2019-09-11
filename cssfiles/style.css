@@ -53,7 +53,7 @@ h2 {
 
 
 #sidebar a:hover {
-    color: #0F0;
+    color: #17cfe2;
 }
 
 
@@ -68,7 +68,7 @@ td img {
     width: 300px;
 }
 div  label:hover{
-    background: #dbe26c;
+    background:  #17cfe2;
 }
 
 form h2 {
@@ -94,4 +94,22 @@ form input[name], textarea {
 
 form input[placeholder] {
     color:blueviolet;
+}
+.mynav {
+    background-color: #101340;
+    
+}
+
+.navbar-inverse .navbar-nav>li>a {
+    color: #17cfe2;
+}
+.navbar-brand img{
+    
+    max-height: 44px;
+}
+.navbar-brand {
+    padding: 3px 15px
+}
+.navbar-inverse .navbar-nav>.active>a {
+   color: #17cfe2; 
 }
